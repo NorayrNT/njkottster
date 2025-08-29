@@ -7,6 +7,7 @@ export default defineConfig({
   server: {
     port: 5480,
     open: false,
+    allowedHosts: ['kottster.nuevojob.com']
   },
   build: {
     outDir: '../dist/client',
