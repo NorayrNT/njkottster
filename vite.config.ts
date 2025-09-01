@@ -5,9 +5,11 @@ import react from '@vitejs/plugin-react';
 export default defineConfig({
   root: './app',
   server: {
+    host: "0.0.0.0",   // listen on all interfaces so nginx can reach it
     port: 5480,
     open: false,
-    allowedHosts: ['kottster.nuevojob.com']
+    allowedHosts: ['kottster.nuevojob.com'],
+    origin: "http://kottster.nuevojob.com",  // tell Vite what public URL it should use
   },
   build: {
     outDir: '../dist/client',
