@@ -3,5 +3,12 @@
   "meta": {
     "name": "NJ Admin Panel",
     "icon": "https://web.kottster.app/icon.png"
-  }
+  },
+  "menuPageOrder": [
+    "adminmenus",
+    "admins",
+    "applications",
+    "codes",
+    "companies"
+  ]
 }

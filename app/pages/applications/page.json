@@ -1,0 +1,11 @@
+{
+  "version": "1.0",
+  "type": "table",
+  "title": "Applications",
+  "hideInSidebar": false,
+  "config": {
+    "dataSource": "mysql-db",
+    "fetchStrategy": "databaseTable",
+    "table": "applications"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "version": "1.0",
+  "type": "table",
+  "title": "Codes",
+  "hideInSidebar": false,
+  "config": {
+    "dataSource": "mysql-db",
+    "fetchStrategy": "databaseTable",
+    "table": "codes"
+  }
+}
